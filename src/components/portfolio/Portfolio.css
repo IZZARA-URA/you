@@ -39,6 +39,14 @@
 
 
 
+
+@media screen and (max-width:600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
 @media screen and (max-width:1200px) {
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
@@ -46,9 +54,9 @@
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1600px) {
     .portfolio__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 }

@@ -1,0 +1,75 @@
+.educations {
+    margin: 0;
+}
+
+.my_educations{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.container.educations__container {
+    width: 80%;
+}
+
+.educations__container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 2rem;
+}
+
+
+.education__content__left {
+    /* position: relative; */
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--color-bg-variant); */
+    /* border-radius: 1.5rem; */
+}
+
+.child {
+    /* width: 400px;
+    height: 400px; */
+    /* background-color: green; */
+}
+
+.education__content__right {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 2rem;
+}
+
+.education__content__right > div {
+    background-color: var(--color-bg-variant);
+    padding: 2.4rem 2.4rem;
+    border-radius: 1.5rem;
+    /* border: 1px solid transparent; */
+    /* transition: var(--transition); */
+}
+
+.education__content__right {
+    padding-left: 1rem;
+}
+
+.education__content {
+    display: grid;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.education__content > div {
+    background-color: var(--color-bg-variant);
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.education__content > div:hover {
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+}
+
+.education__detail {
+    margin-left: 1rem;
+}

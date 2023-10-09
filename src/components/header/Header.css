@@ -1,7 +1,9 @@
 header { 
-    height: 80vh;
+    height: 85vh;
     padding: 1rem;
     overflow: hidden;
+    justify-content: center;
+
 }
 
 .hello_i_am {
@@ -11,6 +13,7 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
+    justify-content: center;
 }
 
 /* ============================= RESUME ============================= */
@@ -18,7 +21,7 @@ header {
 .cta {
     margin-top: 2.5rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 1.5rem;
     justify-content: center;
 }
 
@@ -52,8 +55,8 @@ header {
 /* ============================= ME ============================= */
 .me {
     background: linear-gradient(var(--color-bg), transparent);
-    width: 20rem;
-    height: 32rem;
+    width: 22rem;
+    height: 42rem;
     position: absolute;
     left: calc(50% - 11rem);
     /* transform: translate(-50%); */

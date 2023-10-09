@@ -24,7 +24,7 @@ const Contact = () => {
                         <RiMessengerLine className="contact__option-icon"/>
                         <h4> Massenger <h4/>
                         <h5>Raintree Down</h5>
-                        <a href="https://m.me/profile.php?id=100009564345209" target="_blank">Raintree Down</a>
+                        <a href="https://m.me/profile.php?id=100009564345209" target="_blank">Send a message</a>
                         </h4>
                     </article>
                     <article className="contact__option" target="_blank">
@@ -37,9 +37,9 @@ const Contact = () => {
                 </div>
                 {/* END OF CONTACT OPTIONS */}
                 <form action="">
-                    <input type="text" name='name' placeholder="Your Full Name" required />
-                    <input type="email" name='email' placeholder="Your Email" required />
-                    <textarea type="message" row='7' placeholder="Your Message" required ></textarea>
+                    <input type="text" name='name' placeholder="Full Name" required />
+                    <input type="email" name='email' placeholder="Email" required />
+                    <textarea type="message" row='7' placeholder="  Message" required ></textarea>
                     <button type="submit" className="btn btn-primary">Send Message</button>
                 </form>
 

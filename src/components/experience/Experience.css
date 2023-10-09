@@ -15,7 +15,7 @@
 
 .what_i_know {
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 2rem;
 }
 
@@ -40,6 +40,12 @@
 }
 
 .experience__content_nlp {
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 1rem;
+}
+
+.experience__content_others {
     display: grid;
     grid-template-columns: 1fr ;
     row-gap: 1rem;

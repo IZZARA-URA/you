@@ -23,8 +23,29 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience_details-icon"/>
                             <div>
+                                <h4>HuBERT Model</h4>
+                                <small className="text-light">Basic</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <div>
+                                <h4>Whisper Model</h4>
+                                <small className="text-light">Basic</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <div>
                                 <h4>Seq2Seq with Transformer Model</h4>
                                 <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <div>
+                                <h4>CycleGAN VC 1, 2 Model</h4>
+                                <small className="text-light">Basic</small>
                             </div>
                         </article>
                     </div>
@@ -36,7 +57,14 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience_details-icon"/>
                             <div>
-                                <h4>Yolo Version3, 5, 7</h4>
+                                <h4>Basic CNN Model</h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <div>
+                                <h4>Basic GAN Model</h4>
                                 <small className="text-light">Intermediate</small>
                             </div>
                         </article>
@@ -45,6 +73,20 @@ const Experience = () => {
                             <div>
                                 <h4>RestNet Model</h4>
                                 <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <div>
+                                <h4>Yolo Version 3, 5, 7</h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <div>
+                                <h4>Object Detection With Transformer</h4>
+                                <small className="text-light">Basic</small>
                             </div>
                         </article>
                     </div>
@@ -107,6 +149,27 @@ const Experience = () => {
                             <div>
                                 <h4>MySQL</h4>
                                 <small className="text-light">Basic</small>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div className="experience__others">
+                    <h3>Hight Performance Computer (HPC) & Cloud Computing Skills</h3>
+                    <div className="experience__content_others">
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <div>
+                                <h4>HPC: LANTA & TARA </h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience_details-icon"/>
+                            <div>
+                                <h4>AWS Cloud</h4>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                     </div>
