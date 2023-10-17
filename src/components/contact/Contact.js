@@ -36,7 +36,7 @@ const Contact = () => {
                     </article>
                 </div>
                 {/* END OF CONTACT OPTIONS */}
-                <form action="">
+                <form action="" className="_form">
                     <input type="text" name='name' placeholder="Full Name" required />
                     <input type="email" name='email' placeholder="Email" required />
                     <textarea type="message" row='7' placeholder="  Message" required ></textarea>

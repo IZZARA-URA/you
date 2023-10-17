@@ -3,7 +3,7 @@
 }
 
 .container.experience__container{
-    width: 80%;
+    width: var(--container-width-lg);
 }
 
 .experience__container {
